@@ -24,25 +24,27 @@
           <p class="logo__text">MUNITE GROUP</p>
         </div>
         <ul class="header__links">
-          <li><a class="header__link" href="#">Home</a></li>
-          <li><a class="header__link" href="#">About</a></li>
-          <li><a class="header__link" href="#">Products</a></li>
-          <li><a class="header__link" href="#">Transport Services</a></li>
-          <li><a class="header__link" href="#">Contact</a></li>
+          <li><a class="header__link" href="#myCover">Home</a></li>
+          <li><a class="header__link" href="#myAbout">About</a></li>
+          <li><a class="header__link" href="#myProducts">Products</a></li>
+          <li><a class="header__link" href="#myTransport">Transport Services</a></li>
+          <li><a class="header__link" href="#myContact">Contact</a></li>
         </ul>
       </div>
     </header>
 
     <div class="page__content">
       <main class="main">
-        <section class="cover">
+        <!-- Cover Section -->
+        <section class="cover" id="myCover">
           <div class="cover__phone-container">
             <img src="./images/phone-logo.svg" class="phone-logo" />
             <p class="cover__phone-number">+001（310) 938 9482</p>
           </div>
         </section>
 
-        <section class="home">
+        <!-- Home Section -->
+        <section class="home" id="myHome">
           <div class="home__grid">
             <div class="home__grid-item">
               <h2 class="home__grid-item-title">
@@ -82,7 +84,8 @@
           </div>
         </section>
 
-        <section class="about">
+        <!-- About Section -->
+        <section class="about" id="myAbout">
           <section class="section__container">
             <h1 class="section__title">About Us</h1>
             <p class="section__text">
@@ -100,7 +103,8 @@
           </section>
         </section>
 
-        <section class="products">
+        <!-- Products Section -->
+        <section class="products" id="myProducts">
           <div class="products__container">
             <h2 class="products__title">
               Pork Products
@@ -396,7 +400,8 @@
           </div>
         </section>
 
-        <section class="transport">
+        <!-- Transport section -->
+        <section class="transport" id="myTransport">
           <section class="section__container">
             <h1 class="section__title">Transport Services</h1>
             <p class="section__text">
@@ -414,7 +419,8 @@
           </section>
         </section>
 
-        <section class="contact">
+        <!-- Contact section -->
+        <section class="contact" id="myContact">
           <h1 class="section__title section__title_red">Contact Us</h1>
 
           <div class="contact__container">
@@ -473,19 +479,23 @@
           </div>
         </section>
 
-        <footer class="footer">
+        <!-- footer Section -->
+        <footer class="footer" id="myFooter">
 
       
           <div class="footer__grid">
             <div class="footer__grid-item">
-              <img src="./images/munite-red 1.svg" class="footer__grid-item-logo">
               <p class="footer__text">Munite Group</p>
               <p class="footer__text">&copy; 2020</p>
               <p class="footer__text">All Rights Reserved</p>
             </div>
   
             <div class="footer__grid-item">
-              <h3  class="footer__text">Munite Group</h3>
+              <div class="footer__logo-container">
+                <p class="logo__text">MUNITE GROUP</p>
+                <img src="./images/munite-white.svg" alt="" class="footer__logo" />
+                
+              </div>
               <p class="footer__text">146 E Las Flores Ave. </br> Arcadia. CA 91006</p>
               <p class="footer__text">Jasonpan@muniteinc.us</p>
               <p class="footer__text">Call us: 001 (310) 938 9482</p>
@@ -493,9 +503,14 @@
   
             <div class="footer__grid-item">
               <form>
-                <label for="email-form" class="footer__title">SIGN UP FOR NEWSLETTER</label>
-                <input type="text" id="email-form" name="email-form">
+                <label for="email-form" class="footer__form-label">SIGN UP FOR NEWSLETTER</label>
+                <input type="text" id="email-form" name="email-form" class="footer__form-input" placeholder="Enter your Email">
               </form>
+              <input
+                type="submit"
+                class="footer__form-submit"
+                value="Subscribe"
+              />
             </div>
           </div>
           
