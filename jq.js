@@ -3,6 +3,8 @@ $(document).ready(function(){
   $('.single-item').slick({
     dots: true,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 6000,
   });
 });
 	
