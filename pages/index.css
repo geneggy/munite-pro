@@ -167,7 +167,7 @@ padding: 0;
 .about {
   display: flex;
   justify-content: center;
-  padding: 195px 215px;
+  padding: 195px 215px 0px 215px;
   background: #5D111C;
 }
 .section__container {
@@ -205,6 +205,7 @@ color: #FFFFFF;
 
 .products {
   background: #5D111C;
+  padding: 195px 0 0 0 ;
 }
 
 .products__container {
