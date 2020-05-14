@@ -13,10 +13,11 @@
 
 .header{
   height: 75px;
-  background: #141414;
+
   position: fixed;
   top: 52px;
   width: 100%;
+
 }
 
 .sticky {
@@ -34,6 +35,7 @@
   margin: auto;
   padding: 0 75px;
   max-width: 1440px;
+  background: #141414;
 }
 
 .header__logo-container{
@@ -253,9 +255,146 @@ color: #FFFFFF;
 }
 
 .contact {
-  padding: 100px 0 0 0;
+  padding: 100px 190px;
 }
 
 .section__title_red {
   color: red;
 }
+
+.contact__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 24px */
+  
+  color: #FFFFFF;
+
+
+
+}
+
+.contact__label {
+  color: white;
+  font-family: Puritan;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+}
+
+.contact__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form {
+
+}
+
+.contact-form__title {
+  font-family: Proza Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+margin: 0;
+padding: 0;
+
+}
+
+.contact-info__title {
+  font-family: Proza Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+margin: 0;
+padding: 0;
+}
+
+.contact-form__input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__input {
+  margin-top: 16px;
+  padding-left: 20px;
+max-width: 543px;
+height: 64px;
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+font-family: Proza Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.contact-form__input_message {
+  height: 230px;
+}
+
+.contact-form__submit {
+  font-family: Proza Libre;
+  box-sizing: border-box;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+width: 100%;
+height: 60px;
+margin-top: 16px;
+background: #A51819;
+border: 0;
+border-radius: 5px;
+}
+
+
+.footer__grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.footer__grid-item {
+  width: 310px;
+}
+
+.footer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #5D111C;
+}
+
+.footer__title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+margin: 0;
+padding:0;
+color: #FFFFFF;
+}
+
