@@ -347,6 +347,12 @@ color: #FFFFFF;
   color: red;
 }
 
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .contact__text {
   font-family: Poppins;
   font-style: normal;
@@ -461,6 +467,7 @@ border-radius: 5px;
 }
 
 .footer__logo {
+  padding-right: 5px;
   max-width: 85px;
 }
 
