@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" type="text/css" href="./vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./vendor/slick/slick-theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
 
@@ -66,7 +67,7 @@
         
 
         <!-- Home Section -->
-        <section class="home" id="myHome">
+        <section class="home" id="myHome" data-aos="fade-up">
           <div class="home__grid">
             <div class="home__grid-item">
               <h2 class="home__grid-item-title">
@@ -107,7 +108,7 @@
         </section>
 
         <!-- About Section -->
-        <section class="about" id="myAbout">
+        <section class="about" id="myAbout" data-aos="fade-up">
           <section class="section__container">
             <h1 class="section__title">About Us</h1>
             <p class="section__text">
@@ -126,7 +127,7 @@
         </section>
 
         <!-- Products Section -->
-        <section class="products" id="myProducts">
+        <section class="products" id="myProducts" data-aos="fade-up">
           <div class="products__container">
             <h2 class="products__title">
               Pork Products
@@ -303,7 +304,7 @@
             </ul>
           </div>
 
-          <div class="products__container">
+          <div class="products__container" data-aos="fade-up">
             <h2 class="products__title">
               Beef Products
             </h2>
@@ -423,7 +424,7 @@
         </section>
 
         <!-- Transport section -->
-        <section class="transport" id="myTransport">
+        <section class="transport" id="myTransport" data-aos="fade-up">
           <section class="section__container">
             <h1 class="section__title">Transport Services</h1>
             <p class="section__text">
@@ -442,7 +443,7 @@
         </section>
 
         <!-- Contact section -->
-        <section class="contact" id="myContact">
+        <section class="contact" id="myContact" data-aos="fade-up">
           <h1 class="section__title section__title_red">Contact Us</h1>
 
           <div class="contact__container">
@@ -502,7 +503,7 @@
         </section>
 
         <!-- footer Section -->
-        <footer class="footer" id="myFooter">
+        <footer class="footer" id="myFooter" data-aos="fade-up">
 
       
           
@@ -545,8 +546,12 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="./vendor/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="./index.js"></script>
   <script type="text/javascript" src="./jq.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
 
 
