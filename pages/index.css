@@ -360,15 +360,8 @@ border: 0;
 border-radius: 5px;
 }
 
-
-.footer__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
-}
-
 .footer__grid-item {
-  max-width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -377,8 +370,10 @@ border-radius: 5px;
 .footer {
   padding: 50px 135px;
   display: flex;
-  justify-content: center;
+  box-sizing: border-box;
   background-color: #5D111C;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -421,7 +416,7 @@ font-weight: bold;
 font-size: 14px;
 line-height: 20px;
 color: #FFFFFF;
-display: inline-block;
+display: block;
 margin-bottom: 10px;
 }
 
